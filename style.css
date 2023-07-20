@@ -1,0 +1,175 @@
+/* here is where i edited the nav and made it a flexbox  */
+nav{
+    background-color: #335C76;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3%;
+    border-radius: 8px;
+}
+/* here is i edited all the links */
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* here the place where i made the logo go away from the corners */
+#logo{
+    margin: 3px 0px 0px 10px;
+}
+/* this is where i edited the color and postion of the title */
+#title{
+    text-align: center;
+    color: rgb(36, 45, 63);
+}
+hr{
+    width: 355px;
+    height: 1px;
+}
+/* this is where i edited every thing in the card */
+.card{
+    width: 420px;
+    height: 430px;
+    background-color: #335C76;
+    border-radius: 15px;
+    margin: 0px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: start;    
+}
+.card-img{
+    border: solid;
+    min-height: 170px;
+    min-width: 350px;
+    margin: 30px 30px 5px 30px;
+    background-color: #335C76;
+    border-radius: 15px;
+    background: #335C76;
+    box-shadow: inset 5px 5px 3px #3C6C84,
+    inset -5px -5px 3px #3C6C84;
+
+}
+.card-content{
+    text-align: center;
+    color: white;
+}
+p{
+    margin: 0px 10px 0px 10px ;
+}
+.card-link{
+    border-radius: 5px;
+    border: none black 3px;
+    color: #000;
+    text-align: center;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 75px;
+}
+.card-link:hover{
+    color: #FFF2CC;
+    border: none;
+
+}
+a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.div{
+    margin: auto;
+    width: 420px;
+    height: 430px;
+    background-color: #335C76;
+    border-radius: 15px;        
+    text-align: center;
+}
+/* this is where i started with the footer and stoped with the cards */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+  }
+  /* this is where i changed the size of the footer */
+  .container2 {
+    max-width: 1200px;
+  }
+  /* this where i edited the p in the footer */
+  .p{
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }
+  /* and here starts the place where i started working in the footer links/ icons */
+  .card1 {
+    display: flex;
+    gap: 3%;
+    height: 70px;
+    width: 270px;
+  }
+  
+  .card1 svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .card1 .social-link1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .card1 svg {
+    transform: scale(1);
+  }
+  
+  .card1 .social-link1:hover {
+    background-color: #1a1e22;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+.ison{
+    border-radius: 50px;
+
+}
+/* and thats all thanks */
